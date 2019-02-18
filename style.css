@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.welcome-text
+{
+    position: absolute;
+    color: aliceblue;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    line-height: 3em;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+.element
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.type
+{
+    color: #ffa50f;
+}
+@media only screen and (max-width: 600px) {
+    .welcome-text{
+        position: absolute;
+        color: aliceblue;
+        top: 20%;
+        text-align: center;
+        width: 100%;
+        line-height: 2em;
+    }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 45px;
+    }
+    .element
+    {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+  }
